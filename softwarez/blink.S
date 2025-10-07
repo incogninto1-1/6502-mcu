@@ -1,7 +1,7 @@
 	ORG	$0000
 RESET
-	SEI		;CLEAR ALL INTERRUPTS
-	CLD		;CLEAR ALL DECIMALS
+	SEI			;CLEAR ALL INTERRUPTS
+	CLD			;CLEAR ALL DECIMALS
 	LDX	#$00
 
 ]LOOPUP
@@ -21,4 +21,5 @@ RESET
 
 	TYP	BIN
 	DSK	BLINK.BIN
-	END
+	END			; it takes 1786 clock cycles to fill the 
+				; X register from 00 to FF
