@@ -35,3 +35,6 @@ In the meantime I decided to get myself a 6502 assembler that works on Linux. So
 
 Stay tuned for more! I appreciate you reading 'till the end. Thanks! :D
 
+P.S. If anyone IRL is reading this, yes, this is p much what I like to do. I like to work with low-level systems and hardware. I really like working with embedded systems.
+
+Thanks for reading!
