@@ -31,6 +31,7 @@ I started making a concept for an EPROM burner with an ESP32 bcuz I am a broke R
 
 I am still in the process of aquiring parts and bits for stuff like the flasher, oscilator circuit and even the computer itself so stay tuned
 
-In the meantime I decided to get myself a 6502 assembler that works on Linux. So I decided to go with Merlin32. A continuation of the Merlin assember for the Apple II. It does the job, nicely :D Although it was a pain to figure out how to use the darn thing at the beginning tho ngl :\. But I decided to code a simple LED blink program that is entirely dependent on the 6502's inner registers for delays and stuff. No timers, no C code, no BS. And this is what I got.
+In the meantime I decided to get myself a 6502 assembler that works on Linux. So I decided to go with Merlin32. A continuation of the Merlin assember for the Apple II. It does the job, nicely :D Although it was a pain to figure out how to use the darn thing at the beginning tho ngl :\. But I decided to code a simple LED blink program that is entirely dependent on the 6502's inner registers for delays and stuff. No timers, no C code, no nonsense. And this is what I got.
 
 Stay tuned for more! I appreciate you reading 'till the end. Thanks! :D
+
