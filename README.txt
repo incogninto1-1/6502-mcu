@@ -14,10 +14,10 @@ The CPU breadboard is finnished and p much ready to be powered up with a clock s
 
 
 Lore:
-I initially got my first 6502 CPU back in October of 2024, at 18 years old. Along with it I have also got a Motorola 68000 that I am going to use later as it is a massive chip that I cannot fit on any of my breadboards lmao.
+I initially got my first 6502 CPU back in October of 2024, at 18 years old. Along with it I have also got a Motorola 68000 that I am going to use later as it is a massive chip that I cannot fit on any of my breadboards lol.
 
 So after watching a few youtube videos to see how the 6502 functions, I decided to wire it up on a breadboard.
-It was basic af. Basically applying voltage to the CPU along with hard-wiring the NMI and ready pin to not mess with the processor, along with adding basic circuity for the reset logic, consisting of a resistor and a button lmao xD.
+It was very basic. Basically applying voltage to the CPU along with hard-wiring the NMI and ready pin to not mess with the processor, along with adding basic circuity for the reset logic, consisting of a resistor and a button lol xD.
 
 I also added a couple of LEDs to the address line and hardwired a NOP program to the data lines of the pin (exactly 1 byte long and made out of resistors).
 
