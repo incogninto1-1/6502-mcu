@@ -906,10 +906,781 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_MEC_5G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_MEC_5G"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5G single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5G_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 264.16 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01fd5a5c-4075-4963-b6f5-a5631a5d7c37")
+	)
+	(junction
+		(at 245.11 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23328ad5-75bd-4903-8ba9-7352ca5d6275")
+	)
+	(junction
+		(at 259.08 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "252243fb-2f52-49ae-94e4-243679d11f71")
+	)
+	(junction
+		(at 259.08 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d737240-5d9e-4064-8cb4-b8f940d56eef")
+	)
+	(junction
+		(at 259.08 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "894cceed-05fd-4504-a363-f8e61951dbd7")
+	)
+	(junction
+		(at 227.33 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94e36406-2c8b-4877-9b75-ddcf181963a9")
+	)
+	(junction
+		(at 242.57 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acd8689c-6976-4b34-a360-51765e27150b")
+	)
+	(wire
+		(pts
+			(xy 259.08 64.77) (xy 251.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2f1153-63e8-4ff8-8698-60b7349d1d51")
+	)
+	(wire
+		(pts
+			(xy 176.53 130.81) (xy 176.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21070b6f-ca7c-4d99-a8ac-81f91c639018")
+	)
+	(wire
+		(pts
+			(xy 264.16 130.81) (xy 245.11 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b7da8e-b5e4-40cb-a06f-82aef42a659e")
+	)
+	(wire
+		(pts
+			(xy 251.46 59.69) (xy 264.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28583109-fa75-413e-8f50-791e32883dae")
+	)
+	(wire
+		(pts
+			(xy 264.16 69.85) (xy 264.16 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3570df8f-a86d-4c73-8018-b31e136aa388")
+	)
+	(wire
+		(pts
+			(xy 227.33 130.81) (xy 176.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebc7a65-2b2e-4efb-8083-c0af5d2783fe")
+	)
+	(wire
+		(pts
+			(xy 227.33 130.81) (xy 245.11 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fec3aee-b763-47ce-9474-5abda258d566")
+	)
+	(wire
+		(pts
+			(xy 161.29 49.53) (xy 161.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6017b4d3-14d7-410c-a9ae-f8f01f1dc7ce")
+	)
+	(wire
+		(pts
+			(xy 242.57 49.53) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810c586d-8354-4ce7-b3cc-2f14f03b5626")
+	)
+	(wire
+		(pts
+			(xy 251.46 74.93) (xy 259.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dc083f-0151-4f13-b741-2a39dc209085")
+	)
+	(wire
+		(pts
+			(xy 259.08 49.53) (xy 259.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc161eb-21ee-490f-a0c1-d740ff1fb664")
+	)
+	(wire
+		(pts
+			(xy 259.08 69.85) (xy 259.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b378e7db-3948-4f69-a81c-4da3e07b486d")
+	)
+	(wire
+		(pts
+			(xy 242.57 49.53) (xy 161.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc446224-5304-43a5-a610-5d619a9d67d4")
+	)
+	(wire
+		(pts
+			(xy 273.05 59.69) (xy 273.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45c5eb6-7e52-4d1b-8af2-325c935d6854")
+	)
+	(wire
+		(pts
+			(xy 273.05 49.53) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca10b53a-32df-4dfd-93cf-3bbc3453a797")
+	)
+	(wire
+		(pts
+			(xy 259.08 74.93) (xy 259.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95bb208-cfdb-4fa3-841f-6e668457a87d")
+	)
+	(wire
+		(pts
+			(xy 264.16 59.69) (xy 265.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1ab3e2-0dfc-434a-9872-87771d49511f")
+	)
+	(wire
+		(pts
+			(xy 251.46 69.85) (xy 259.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9a4da9-c896-4bef-9f6a-2398fdd9aa18")
 	)
 	(symbol
 		(lib_id "6502:6502")
-		(at 138.43 113.03 0)
+		(at 245.11 120.65 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -918,7 +1689,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ae6c095-907e-43f2-b940-fafe786d3ca4")
 		(property "Reference" "IC1"
-			(at 142.24 116.8399 0)
+			(at 248.92 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +1698,7 @@
 			)
 		)
 		(property "Value" "6502"
-			(at 142.24 119.3799 0)
+			(at 248.92 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +1707,7 @@
 			)
 		)
 		(property "Footprint" "6502:DIP40"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +1717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +1726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +1735,7 @@
 			)
 		)
 		(property "MF" "Mostek"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +1745,7 @@
 			)
 		)
 		(property "Description_1" "Thermostat 95°C Active High Push-Pull SOT-23-5"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +1755,7 @@
 			)
 		)
 		(property "Package" "SOT-753 Mostek"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1765,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1775,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=snap"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1785,7 @@
 			)
 		)
 		(property "MP" "6502"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,7 +1795,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1805,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=eda"
-			(at 138.43 113.03 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1945,7 @@
 	)
 	(symbol
 		(lib_id "6502:6502")
-		(at 120.65 113.03 0)
+		(at 227.33 120.65 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1183,7 +1954,7 @@
 		(fields_autoplaced yes)
 		(uuid "58f04379-a136-45e8-8c17-328155bd48af")
 		(property "Reference" "IC1"
-			(at 124.46 116.8399 0)
+			(at 231.14 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1963,7 @@
 			)
 		)
 		(property "Value" "6502"
-			(at 124.46 119.3799 0)
+			(at 231.14 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1972,7 @@
 			)
 		)
 		(property "Footprint" "6502:DIP40"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1991,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +2000,7 @@
 			)
 		)
 		(property "MF" "Mostek"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +2010,7 @@
 			)
 		)
 		(property "Description_1" "Thermostat 95°C Active High Push-Pull SOT-23-5"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +2020,7 @@
 			)
 		)
 		(property "Package" "SOT-753 Mostek"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +2030,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +2040,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=snap"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +2050,7 @@
 			)
 		)
 		(property "MP" "6502"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +2060,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +2070,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=eda"
-			(at 120.65 113.03 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,124 +2080,124 @@
 			)
 		)
 		(pin "6"
-			(uuid "2d6129a1-2459-4131-be56-7b0be0142f84")
+			(uuid "2d6129a1-2459-4131-be56-7b0be0142f85")
 		)
 		(pin "38"
-			(uuid "68d60612-0880-4222-9d71-67a80084640a")
+			(uuid "68d60612-0880-4222-9d71-67a80084640b")
 		)
 		(pin "25"
-			(uuid "8e5c942e-cffe-4b3e-8310-90de81243b02")
+			(uuid "8e5c942e-cffe-4b3e-8310-90de81243b03")
 		)
 		(pin "34"
-			(uuid "338579b2-8c15-40c4-8268-add9b96aa5c7")
+			(uuid "338579b2-8c15-40c4-8268-add9b96aa5c8")
 		)
 		(pin "35"
-			(uuid "dcd56bbb-a634-4fbc-b94d-665a0e8e9bd8")
+			(uuid "dcd56bbb-a634-4fbc-b94d-665a0e8e9bd9")
 		)
 		(pin "20"
-			(uuid "8ee4da16-4834-430e-a0a0-228ae9ded2d4")
+			(uuid "8ee4da16-4834-430e-a0a0-228ae9ded2d5")
 		)
 		(pin "23"
-			(uuid "fc08fcca-de0e-460b-a7dd-a4da4bd847df")
+			(uuid "fc08fcca-de0e-460b-a7dd-a4da4bd847e0")
 		)
 		(pin "37"
-			(uuid "89af4255-6e6d-4684-b25a-c7d1d37f06c5")
+			(uuid "89af4255-6e6d-4684-b25a-c7d1d37f06c6")
 		)
 		(pin "7"
-			(uuid "55243d84-9f38-4ba1-93f5-6fd14db71745")
+			(uuid "55243d84-9f38-4ba1-93f5-6fd14db71746")
 		)
 		(pin "4"
-			(uuid "8d211d71-6f23-47f8-a65d-e4485c8b25e8")
+			(uuid "8d211d71-6f23-47f8-a65d-e4485c8b25e9")
 		)
 		(pin "22"
-			(uuid "6aa08771-5be6-4a87-8610-e5668f0c02c6")
+			(uuid "6aa08771-5be6-4a87-8610-e5668f0c02c7")
 		)
 		(pin "2"
-			(uuid "3b8febe2-a58c-4abd-aafe-fcf0649154ab")
+			(uuid "3b8febe2-a58c-4abd-aafe-fcf0649154ac")
 		)
 		(pin "40"
-			(uuid "46db892e-b742-48c2-b9dd-001dae12269d")
+			(uuid "46db892e-b742-48c2-b9dd-001dae12269e")
 		)
 		(pin "18"
-			(uuid "11173156-c7d8-4dd3-aa67-81e5da468c8e")
+			(uuid "11173156-c7d8-4dd3-aa67-81e5da468c8f")
 		)
 		(pin "5"
-			(uuid "d2f4e5dd-e4db-49f6-9f86-ddc9f3d4b50e")
+			(uuid "d2f4e5dd-e4db-49f6-9f86-ddc9f3d4b50f")
 		)
 		(pin "36"
-			(uuid "0528dc10-c75c-4583-907f-cc8dd875c609")
+			(uuid "0528dc10-c75c-4583-907f-cc8dd875c60a")
 		)
 		(pin "19"
-			(uuid "677570cd-6122-49a3-81b2-b608134fb07a")
+			(uuid "677570cd-6122-49a3-81b2-b608134fb07b")
 		)
 		(pin "39"
-			(uuid "398aa47e-3ce9-472a-acfa-ec42858016fa")
+			(uuid "398aa47e-3ce9-472a-acfa-ec42858016fb")
 		)
 		(pin "24"
-			(uuid "c08959ee-00b5-4a99-bf23-328912ea9f85")
+			(uuid "c08959ee-00b5-4a99-bf23-328912ea9f86")
 		)
 		(pin "16"
-			(uuid "1269fbcc-1922-4d47-b1ee-34bbf3e2abc2")
+			(uuid "1269fbcc-1922-4d47-b1ee-34bbf3e2abc3")
 		)
 		(pin "15"
-			(uuid "8da3ebc8-2d9d-4185-b050-a082e3d419ce")
+			(uuid "8da3ebc8-2d9d-4185-b050-a082e3d419cf")
 		)
 		(pin "14"
-			(uuid "5dd0a1e8-d5df-48f1-b731-8990ae7b7819")
+			(uuid "5dd0a1e8-d5df-48f1-b731-8990ae7b781a")
 		)
 		(pin "13"
-			(uuid "1f89e434-5d6b-4909-be6c-55a13640fd9e")
+			(uuid "1f89e434-5d6b-4909-be6c-55a13640fd9f")
 		)
 		(pin "12"
-			(uuid "6490acd1-28ba-4c4c-a77c-ee2bfe8f4da5")
+			(uuid "6490acd1-28ba-4c4c-a77c-ee2bfe8f4da6")
 		)
 		(pin "11"
-			(uuid "d7be2501-c7ff-499a-8812-a98743e4e80c")
+			(uuid "d7be2501-c7ff-499a-8812-a98743e4e80d")
 		)
 		(pin "10"
-			(uuid "2175ddcb-cd7d-4fbb-aa4f-bb7be51946bc")
+			(uuid "2175ddcb-cd7d-4fbb-aa4f-bb7be51946bd")
 		)
 		(pin "9"
-			(uuid "1449a994-3901-47e7-af91-3bc005411370")
+			(uuid "1449a994-3901-47e7-af91-3bc005411371")
 		)
 		(pin "26"
-			(uuid "6dc7c0e1-7fea-4710-bf25-67b372464f52")
+			(uuid "6dc7c0e1-7fea-4710-bf25-67b372464f53")
 		)
 		(pin "27"
-			(uuid "c54d073c-041b-42b7-bbad-d07190272452")
+			(uuid "c54d073c-041b-42b7-bbad-d07190272453")
 		)
 		(pin "28"
-			(uuid "a9f498f3-bb63-4edc-b1f4-191f8a8967db")
+			(uuid "a9f498f3-bb63-4edc-b1f4-191f8a8967dc")
 		)
 		(pin "29"
-			(uuid "a973f06f-b149-4bc4-b118-9d5b2ec9b9fb")
+			(uuid "a973f06f-b149-4bc4-b118-9d5b2ec9b9fc")
 		)
 		(pin "30"
-			(uuid "20c168f0-febf-4b42-9aed-18f36f863292")
+			(uuid "20c168f0-febf-4b42-9aed-18f36f863293")
 		)
 		(pin "31"
-			(uuid "efe6360e-d0f4-40db-a4c1-c940dc261482")
+			(uuid "efe6360e-d0f4-40db-a4c1-c940dc261483")
 		)
 		(pin "32"
-			(uuid "8052d8af-0f2b-4b95-8972-b3e89b9ac723")
+			(uuid "8052d8af-0f2b-4b95-8972-b3e89b9ac724")
 		)
 		(pin "33"
-			(uuid "27a94ca9-b613-49a4-bdd8-f82317fd53e7")
+			(uuid "27a94ca9-b613-49a4-bdd8-f82317fd53e8")
 		)
 		(pin "21"
-			(uuid "703f3564-1336-439e-9094-0416db9fbce4")
+			(uuid "703f3564-1336-439e-9094-0416db9fbce5")
 		)
 		(pin "8"
-			(uuid "645ad4c7-d36e-4c65-9c7a-3a65cd295a22")
+			(uuid "645ad4c7-d36e-4c65-9c7a-3a65cd295a23")
 		)
 		(pin "17"
-			(uuid "aa9f7ff9-1bfd-46c3-9996-338ffd9a98c0")
+			(uuid "aa9f7ff9-1bfd-46c3-9996-338ffd9a98c1")
 		)
 		(pin "1"
-			(uuid "b308207e-c359-4bb6-9a68-046f844d9cb4")
+			(uuid "b308207e-c359-4bb6-9a68-046f844d9cb5")
 		)
 		(pin "3"
-			(uuid "a2a2a951-e429-49e2-a9a6-5ace4fd49088")
+			(uuid "a2a2a951-e429-49e2-a9a6-5ace4fd49089")
 		)
 		(instances
 			(project "Linx"
@@ -1439,7 +2210,7 @@
 	)
 	(symbol
 		(lib_id "6502:6502")
-		(at 129.54 82.55 0)
+		(at 236.22 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1448,7 +2219,7 @@
 		(fields_autoplaced yes)
 		(uuid "717422db-b3a5-4845-b524-82faf1903e4c")
 		(property "Reference" "IC1"
-			(at 129.54 44.45 0)
+			(at 236.22 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +2227,7 @@
 			)
 		)
 		(property "Value" "6502"
-			(at 129.54 46.99 0)
+			(at 236.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +2235,7 @@
 			)
 		)
 		(property "Footprint" "6502:DIP40"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +2245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +2254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +2263,7 @@
 			)
 		)
 		(property "MF" "Mostek"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +2273,7 @@
 			)
 		)
 		(property "Description_1" "Thermostat 95°C Active High Push-Pull SOT-23-5"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +2283,7 @@
 			)
 		)
 		(property "Package" "SOT-753 Mostek"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +2293,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +2303,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=snap"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +2313,7 @@
 			)
 		)
 		(property "MP" "6502"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +2323,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +2333,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=eda"
-			(at 129.54 82.55 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,124 +2343,124 @@
 			)
 		)
 		(pin "6"
-			(uuid "2d6129a1-2459-4131-be56-7b0be0142f84")
+			(uuid "2d6129a1-2459-4131-be56-7b0be0142f86")
 		)
 		(pin "38"
-			(uuid "68d60612-0880-4222-9d71-67a80084640a")
+			(uuid "68d60612-0880-4222-9d71-67a80084640c")
 		)
 		(pin "25"
-			(uuid "8e5c942e-cffe-4b3e-8310-90de81243b02")
+			(uuid "8e5c942e-cffe-4b3e-8310-90de81243b04")
 		)
 		(pin "34"
-			(uuid "338579b2-8c15-40c4-8268-add9b96aa5c7")
+			(uuid "338579b2-8c15-40c4-8268-add9b96aa5c9")
 		)
 		(pin "35"
-			(uuid "dcd56bbb-a634-4fbc-b94d-665a0e8e9bd8")
+			(uuid "dcd56bbb-a634-4fbc-b94d-665a0e8e9bda")
 		)
 		(pin "20"
-			(uuid "8ee4da16-4834-430e-a0a0-228ae9ded2d4")
+			(uuid "8ee4da16-4834-430e-a0a0-228ae9ded2d6")
 		)
 		(pin "23"
-			(uuid "fc08fcca-de0e-460b-a7dd-a4da4bd847df")
+			(uuid "fc08fcca-de0e-460b-a7dd-a4da4bd847e1")
 		)
 		(pin "37"
-			(uuid "89af4255-6e6d-4684-b25a-c7d1d37f06c5")
+			(uuid "89af4255-6e6d-4684-b25a-c7d1d37f06c7")
 		)
 		(pin "7"
-			(uuid "55243d84-9f38-4ba1-93f5-6fd14db71745")
+			(uuid "55243d84-9f38-4ba1-93f5-6fd14db71747")
 		)
 		(pin "4"
-			(uuid "8d211d71-6f23-47f8-a65d-e4485c8b25e8")
+			(uuid "8d211d71-6f23-47f8-a65d-e4485c8b25ea")
 		)
 		(pin "22"
-			(uuid "6aa08771-5be6-4a87-8610-e5668f0c02c6")
+			(uuid "6aa08771-5be6-4a87-8610-e5668f0c02c8")
 		)
 		(pin "2"
-			(uuid "3b8febe2-a58c-4abd-aafe-fcf0649154ab")
+			(uuid "3b8febe2-a58c-4abd-aafe-fcf0649154ad")
 		)
 		(pin "40"
-			(uuid "46db892e-b742-48c2-b9dd-001dae12269d")
+			(uuid "46db892e-b742-48c2-b9dd-001dae12269f")
 		)
 		(pin "18"
-			(uuid "11173156-c7d8-4dd3-aa67-81e5da468c8e")
+			(uuid "11173156-c7d8-4dd3-aa67-81e5da468c90")
 		)
 		(pin "5"
-			(uuid "d2f4e5dd-e4db-49f6-9f86-ddc9f3d4b50e")
+			(uuid "d2f4e5dd-e4db-49f6-9f86-ddc9f3d4b510")
 		)
 		(pin "36"
-			(uuid "0528dc10-c75c-4583-907f-cc8dd875c609")
+			(uuid "0528dc10-c75c-4583-907f-cc8dd875c60b")
 		)
 		(pin "19"
-			(uuid "677570cd-6122-49a3-81b2-b608134fb07a")
+			(uuid "677570cd-6122-49a3-81b2-b608134fb07c")
 		)
 		(pin "39"
-			(uuid "398aa47e-3ce9-472a-acfa-ec42858016fa")
+			(uuid "398aa47e-3ce9-472a-acfa-ec42858016fc")
 		)
 		(pin "24"
-			(uuid "c08959ee-00b5-4a99-bf23-328912ea9f85")
+			(uuid "c08959ee-00b5-4a99-bf23-328912ea9f87")
 		)
 		(pin "16"
-			(uuid "1269fbcc-1922-4d47-b1ee-34bbf3e2abc2")
+			(uuid "1269fbcc-1922-4d47-b1ee-34bbf3e2abc4")
 		)
 		(pin "15"
-			(uuid "8da3ebc8-2d9d-4185-b050-a082e3d419ce")
+			(uuid "8da3ebc8-2d9d-4185-b050-a082e3d419d0")
 		)
 		(pin "14"
-			(uuid "5dd0a1e8-d5df-48f1-b731-8990ae7b7819")
+			(uuid "5dd0a1e8-d5df-48f1-b731-8990ae7b781b")
 		)
 		(pin "13"
-			(uuid "1f89e434-5d6b-4909-be6c-55a13640fd9e")
+			(uuid "1f89e434-5d6b-4909-be6c-55a13640fda0")
 		)
 		(pin "12"
-			(uuid "6490acd1-28ba-4c4c-a77c-ee2bfe8f4da5")
+			(uuid "6490acd1-28ba-4c4c-a77c-ee2bfe8f4da7")
 		)
 		(pin "11"
-			(uuid "d7be2501-c7ff-499a-8812-a98743e4e80c")
+			(uuid "d7be2501-c7ff-499a-8812-a98743e4e80e")
 		)
 		(pin "10"
-			(uuid "2175ddcb-cd7d-4fbb-aa4f-bb7be51946bc")
+			(uuid "2175ddcb-cd7d-4fbb-aa4f-bb7be51946be")
 		)
 		(pin "9"
-			(uuid "1449a994-3901-47e7-af91-3bc005411370")
+			(uuid "1449a994-3901-47e7-af91-3bc005411372")
 		)
 		(pin "26"
-			(uuid "6dc7c0e1-7fea-4710-bf25-67b372464f52")
+			(uuid "6dc7c0e1-7fea-4710-bf25-67b372464f54")
 		)
 		(pin "27"
-			(uuid "c54d073c-041b-42b7-bbad-d07190272452")
+			(uuid "c54d073c-041b-42b7-bbad-d07190272454")
 		)
 		(pin "28"
-			(uuid "a9f498f3-bb63-4edc-b1f4-191f8a8967db")
+			(uuid "a9f498f3-bb63-4edc-b1f4-191f8a8967dd")
 		)
 		(pin "29"
-			(uuid "a973f06f-b149-4bc4-b118-9d5b2ec9b9fb")
+			(uuid "a973f06f-b149-4bc4-b118-9d5b2ec9b9fd")
 		)
 		(pin "30"
-			(uuid "20c168f0-febf-4b42-9aed-18f36f863292")
+			(uuid "20c168f0-febf-4b42-9aed-18f36f863294")
 		)
 		(pin "31"
-			(uuid "efe6360e-d0f4-40db-a4c1-c940dc261482")
+			(uuid "efe6360e-d0f4-40db-a4c1-c940dc261484")
 		)
 		(pin "32"
-			(uuid "8052d8af-0f2b-4b95-8972-b3e89b9ac723")
+			(uuid "8052d8af-0f2b-4b95-8972-b3e89b9ac725")
 		)
 		(pin "33"
-			(uuid "27a94ca9-b613-49a4-bdd8-f82317fd53e7")
+			(uuid "27a94ca9-b613-49a4-bdd8-f82317fd53e9")
 		)
 		(pin "21"
-			(uuid "703f3564-1336-439e-9094-0416db9fbce4")
+			(uuid "703f3564-1336-439e-9094-0416db9fbce6")
 		)
 		(pin "8"
-			(uuid "645ad4c7-d36e-4c65-9c7a-3a65cd295a22")
+			(uuid "645ad4c7-d36e-4c65-9c7a-3a65cd295a24")
 		)
 		(pin "17"
-			(uuid "aa9f7ff9-1bfd-46c3-9996-338ffd9a98c0")
+			(uuid "aa9f7ff9-1bfd-46c3-9996-338ffd9a98c2")
 		)
 		(pin "1"
-			(uuid "b308207e-c359-4bb6-9a68-046f844d9cb4")
+			(uuid "b308207e-c359-4bb6-9a68-046f844d9cb6")
 		)
 		(pin "3"
-			(uuid "a2a2a951-e429-49e2-a9a6-5ace4fd49088")
+			(uuid "a2a2a951-e429-49e2-a9a6-5ace4fd4908a")
 		)
 		(instances
 			(project "Linx"
@@ -1701,8 +2472,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 176.53 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72a57ef8-3a2d-4c5f-9d7d-4b49c9c9cbff")
+		(property "Reference" "#PWR02"
+			(at 176.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20addb96-7218-4b7b-9d8a-68a9c458696a")
+		)
+		(instances
+			(project ""
+				(path "/4c4afc37-5253-4b0b-ab5d-bdd14533a2dd"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "841c2470-d3f8-4e7f-b978-6f1e325df350")
+		(property "Reference" "R1"
+			(at 269.24 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 269.24 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 269.24 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd864742-68c5-4c06-8bd2-20b1a7ee874b")
+		)
+		(pin "1"
+			(uuid "546c56ee-2f27-44eb-b6f9-ad225ef2088a")
+		)
+		(instances
+			(project ""
+				(path "/4c4afc37-5253-4b0b-ab5d-bdd14533a2dd"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "6502:6502")
-		(at 135.89 52.07 0)
+		(at 242.57 59.69 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1711,7 +2616,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd5ea010-6c5a-42c1-9c0e-75eff64ef615")
 		(property "Reference" "IC1"
-			(at 139.7 45.0644 0)
+			(at 246.38 52.6844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +2625,7 @@
 			)
 		)
 		(property "Value" "6502"
-			(at 139.7 47.6044 0)
+			(at 246.38 55.2244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +2634,7 @@
 			)
 		)
 		(property "Footprint" "6502:DIP40"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +2644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +2653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +2662,7 @@
 			)
 		)
 		(property "MF" "Mostek"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +2672,7 @@
 			)
 		)
 		(property "Description_1" "Thermostat 95°C Active High Push-Pull SOT-23-5"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +2682,7 @@
 			)
 		)
 		(property "Package" "SOT-753 Mostek"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +2692,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +2702,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=snap"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +2712,7 @@
 			)
 		)
 		(property "MP" "6502"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +2722,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +2732,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=eda"
-			(at 135.89 52.07 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,130 +2742,272 @@
 			)
 		)
 		(pin "6"
-			(uuid "2d6129a1-2459-4131-be56-7b0be0142f84")
+			(uuid "2d6129a1-2459-4131-be56-7b0be0142f87")
 		)
 		(pin "38"
-			(uuid "68d60612-0880-4222-9d71-67a80084640a")
+			(uuid "68d60612-0880-4222-9d71-67a80084640d")
 		)
 		(pin "25"
-			(uuid "8e5c942e-cffe-4b3e-8310-90de81243b02")
+			(uuid "8e5c942e-cffe-4b3e-8310-90de81243b05")
 		)
 		(pin "34"
-			(uuid "338579b2-8c15-40c4-8268-add9b96aa5c7")
+			(uuid "338579b2-8c15-40c4-8268-add9b96aa5ca")
 		)
 		(pin "35"
-			(uuid "dcd56bbb-a634-4fbc-b94d-665a0e8e9bd8")
+			(uuid "dcd56bbb-a634-4fbc-b94d-665a0e8e9bdb")
 		)
 		(pin "20"
-			(uuid "8ee4da16-4834-430e-a0a0-228ae9ded2d4")
+			(uuid "8ee4da16-4834-430e-a0a0-228ae9ded2d7")
 		)
 		(pin "23"
-			(uuid "fc08fcca-de0e-460b-a7dd-a4da4bd847df")
+			(uuid "fc08fcca-de0e-460b-a7dd-a4da4bd847e2")
 		)
 		(pin "37"
-			(uuid "89af4255-6e6d-4684-b25a-c7d1d37f06c5")
+			(uuid "89af4255-6e6d-4684-b25a-c7d1d37f06c8")
 		)
 		(pin "7"
-			(uuid "55243d84-9f38-4ba1-93f5-6fd14db71745")
+			(uuid "55243d84-9f38-4ba1-93f5-6fd14db71748")
 		)
 		(pin "4"
-			(uuid "8d211d71-6f23-47f8-a65d-e4485c8b25e8")
+			(uuid "8d211d71-6f23-47f8-a65d-e4485c8b25eb")
 		)
 		(pin "22"
-			(uuid "6aa08771-5be6-4a87-8610-e5668f0c02c6")
+			(uuid "6aa08771-5be6-4a87-8610-e5668f0c02c9")
 		)
 		(pin "2"
-			(uuid "3b8febe2-a58c-4abd-aafe-fcf0649154ab")
+			(uuid "3b8febe2-a58c-4abd-aafe-fcf0649154ae")
 		)
 		(pin "40"
-			(uuid "46db892e-b742-48c2-b9dd-001dae12269d")
+			(uuid "46db892e-b742-48c2-b9dd-001dae1226a0")
 		)
 		(pin "18"
-			(uuid "11173156-c7d8-4dd3-aa67-81e5da468c8e")
+			(uuid "11173156-c7d8-4dd3-aa67-81e5da468c91")
 		)
 		(pin "5"
-			(uuid "d2f4e5dd-e4db-49f6-9f86-ddc9f3d4b50e")
+			(uuid "d2f4e5dd-e4db-49f6-9f86-ddc9f3d4b511")
 		)
 		(pin "36"
-			(uuid "0528dc10-c75c-4583-907f-cc8dd875c609")
+			(uuid "0528dc10-c75c-4583-907f-cc8dd875c60c")
 		)
 		(pin "19"
-			(uuid "677570cd-6122-49a3-81b2-b608134fb07a")
+			(uuid "677570cd-6122-49a3-81b2-b608134fb07d")
 		)
 		(pin "39"
-			(uuid "398aa47e-3ce9-472a-acfa-ec42858016fa")
+			(uuid "398aa47e-3ce9-472a-acfa-ec42858016fd")
 		)
 		(pin "24"
-			(uuid "c08959ee-00b5-4a99-bf23-328912ea9f85")
+			(uuid "c08959ee-00b5-4a99-bf23-328912ea9f88")
 		)
 		(pin "16"
-			(uuid "1269fbcc-1922-4d47-b1ee-34bbf3e2abc2")
+			(uuid "1269fbcc-1922-4d47-b1ee-34bbf3e2abc5")
 		)
 		(pin "15"
-			(uuid "8da3ebc8-2d9d-4185-b050-a082e3d419ce")
+			(uuid "8da3ebc8-2d9d-4185-b050-a082e3d419d1")
 		)
 		(pin "14"
-			(uuid "5dd0a1e8-d5df-48f1-b731-8990ae7b7819")
+			(uuid "5dd0a1e8-d5df-48f1-b731-8990ae7b781c")
 		)
 		(pin "13"
-			(uuid "1f89e434-5d6b-4909-be6c-55a13640fd9e")
+			(uuid "1f89e434-5d6b-4909-be6c-55a13640fda1")
 		)
 		(pin "12"
-			(uuid "6490acd1-28ba-4c4c-a77c-ee2bfe8f4da5")
+			(uuid "6490acd1-28ba-4c4c-a77c-ee2bfe8f4da8")
 		)
 		(pin "11"
-			(uuid "d7be2501-c7ff-499a-8812-a98743e4e80c")
+			(uuid "d7be2501-c7ff-499a-8812-a98743e4e80f")
 		)
 		(pin "10"
-			(uuid "2175ddcb-cd7d-4fbb-aa4f-bb7be51946bc")
+			(uuid "2175ddcb-cd7d-4fbb-aa4f-bb7be51946bf")
 		)
 		(pin "9"
-			(uuid "1449a994-3901-47e7-af91-3bc005411370")
+			(uuid "1449a994-3901-47e7-af91-3bc005411373")
 		)
 		(pin "26"
-			(uuid "6dc7c0e1-7fea-4710-bf25-67b372464f52")
+			(uuid "6dc7c0e1-7fea-4710-bf25-67b372464f55")
 		)
 		(pin "27"
-			(uuid "c54d073c-041b-42b7-bbad-d07190272452")
+			(uuid "c54d073c-041b-42b7-bbad-d07190272455")
 		)
 		(pin "28"
-			(uuid "a9f498f3-bb63-4edc-b1f4-191f8a8967db")
+			(uuid "a9f498f3-bb63-4edc-b1f4-191f8a8967de")
 		)
 		(pin "29"
-			(uuid "a973f06f-b149-4bc4-b118-9d5b2ec9b9fb")
+			(uuid "a973f06f-b149-4bc4-b118-9d5b2ec9b9fe")
 		)
 		(pin "30"
-			(uuid "20c168f0-febf-4b42-9aed-18f36f863292")
+			(uuid "20c168f0-febf-4b42-9aed-18f36f863295")
 		)
 		(pin "31"
-			(uuid "efe6360e-d0f4-40db-a4c1-c940dc261482")
+			(uuid "efe6360e-d0f4-40db-a4c1-c940dc261485")
 		)
 		(pin "32"
-			(uuid "8052d8af-0f2b-4b95-8972-b3e89b9ac723")
+			(uuid "8052d8af-0f2b-4b95-8972-b3e89b9ac726")
 		)
 		(pin "33"
-			(uuid "27a94ca9-b613-49a4-bdd8-f82317fd53e7")
+			(uuid "27a94ca9-b613-49a4-bdd8-f82317fd53ea")
 		)
 		(pin "21"
-			(uuid "703f3564-1336-439e-9094-0416db9fbce4")
+			(uuid "703f3564-1336-439e-9094-0416db9fbce7")
 		)
 		(pin "8"
-			(uuid "645ad4c7-d36e-4c65-9c7a-3a65cd295a22")
+			(uuid "645ad4c7-d36e-4c65-9c7a-3a65cd295a25")
 		)
 		(pin "17"
-			(uuid "aa9f7ff9-1bfd-46c3-9996-338ffd9a98c0")
+			(uuid "aa9f7ff9-1bfd-46c3-9996-338ffd9a98c3")
 		)
 		(pin "1"
-			(uuid "b308207e-c359-4bb6-9a68-046f844d9cb4")
+			(uuid "b308207e-c359-4bb6-9a68-046f844d9cb7")
 		)
 		(pin "3"
-			(uuid "a2a2a951-e429-49e2-a9a6-5ace4fd49088")
+			(uuid "a2a2a951-e429-49e2-a9a6-5ace4fd4908b")
 		)
 		(instances
 			(project "Linx"
 				(path "/4c4afc37-5253-4b0b-ab5d-bdd14533a2dd"
 					(reference "IC1")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 161.29 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb66092-3322-4457-8efb-2a262dbc4757")
+		(property "Reference" "#PWR01"
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 161.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e01c3deb-2898-4ccb-9cef-dd63941f80d4")
+		)
+		(instances
+			(project ""
+				(path "/4c4afc37-5253-4b0b-ab5d-bdd14533a2dd"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 264.16 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0a9ea1b-4e3e-453a-aa59-98a88b4765cf")
+		(property "Reference" "SW1"
+			(at 267.97 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 267.97 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+			(at 269.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 269.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 264.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c97afde-7d7b-4d3e-bdc4-c4b8f856c4c1")
+		)
+		(pin "3"
+			(uuid "99355014-064e-4b11-9355-cf948bde90aa")
+		)
+		(pin "1"
+			(uuid "46e682f6-c7a8-45ea-9282-3cadfc209376")
+		)
+		(pin "4"
+			(uuid "14b66e0b-f4eb-4f43-afc9-57ac3d1b028b")
+		)
+		(instances
+			(project ""
+				(path "/4c4afc37-5253-4b0b-ab5d-bdd14533a2dd"
+					(reference "SW1")
+					(unit 1)
 				)
 			)
 		)
