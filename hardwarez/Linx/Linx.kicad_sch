@@ -5,6 +5,387 @@
 	(uuid "4c4afc37-5253-4b0b-ab5d-bdd14533a2dd")
 	(paper "A4")
 	(lib_symbols
+		(symbol "4xxx:4028"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4028"
+				(at -7.62 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4028bms.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Decoder 4 to 10 lines"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CMOS DECOD DECOD10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?16*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4028_1_0"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "S6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "S7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "S8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -12.7 180)
+					(length 5.08)
+					(name "S9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4028_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "6502:6502"
 			(pin_names
 				(offset 1.016)
@@ -1457,50 +1838,72 @@
 		)
 	)
 	(junction
-		(at 264.16 59.69)
+		(at 129.54 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01fd5a5c-4075-4963-b6f5-a5631a5d7c37")
 	)
 	(junction
-		(at 245.11 130.81)
+		(at 110.49 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23328ad5-75bd-4903-8ba9-7352ca5d6275")
 	)
 	(junction
-		(at 259.08 69.85)
+		(at 124.46 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "252243fb-2f52-49ae-94e4-243679d11f71")
 	)
 	(junction
-		(at 259.08 64.77)
+		(at 138.43 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "618aa3be-f7e5-46cf-a5af-0d13683ed5fa")
+	)
+	(junction
+		(at 124.46 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d737240-5d9e-4064-8cb4-b8f940d56eef")
 	)
 	(junction
-		(at 259.08 49.53)
+		(at 124.46 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "894cceed-05fd-4504-a363-f8e61951dbd7")
 	)
 	(junction
-		(at 227.33 130.81)
+		(at 92.71 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94e36406-2c8b-4877-9b75-ddcf181963a9")
 	)
 	(junction
-		(at 242.57 49.53)
+		(at 107.95 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acd8689c-6976-4b34-a360-51765e27150b")
 	)
+	(junction
+		(at 129.54 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be01da3b-2dc7-4ae2-b9ea-a53a564aef09")
+	)
 	(wire
 		(pts
-			(xy 259.08 64.77) (xy 251.46 64.77)
+			(xy 157.48 134.62) (xy 157.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17895527-1775-4e95-9f13-4910c4a062c1")
+	)
+	(wire
+		(pts
+			(xy 124.46 68.58) (xy 116.84 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 130.81) (xy 176.53 137.16)
+			(xy 41.91 134.62) (xy 41.91 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 130.81) (xy 245.11 130.81)
+			(xy 129.54 134.62) (xy 110.49 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 59.69) (xy 264.16 59.69)
+			(xy 116.84 63.5) (xy 129.54 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 69.85) (xy 264.16 130.81)
+			(xy 129.54 73.66) (xy 129.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 130.81) (xy 176.53 130.81)
+			(xy 92.71 134.62) (xy 41.91 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 130.81) (xy 245.11 130.81)
+			(xy 92.71 134.62) (xy 110.49 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 49.53) (xy 161.29 41.91)
+			(xy 26.67 53.34) (xy 26.67 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 49.53) (xy 259.08 49.53)
+			(xy 107.95 53.34) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 74.93) (xy 259.08 74.93)
+			(xy 116.84 78.74) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 49.53) (xy 259.08 64.77)
+			(xy 124.46 53.34) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 69.85) (xy 259.08 64.77)
+			(xy 124.46 73.66) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 49.53) (xy 161.29 49.53)
+			(xy 107.95 53.34) (xy 26.67 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +2033,17 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 59.69) (xy 273.05 49.53)
+			(xy 129.54 134.62) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c286b14f-cd87-4f68-a488-47e614f89dfc")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 138.43 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 49.53) (xy 259.08 49.53)
+			(xy 138.43 53.34) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +2063,27 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 74.93) (xy 259.08 69.85)
+			(xy 157.48 53.34) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d104e07a-3943-4e3e-817a-ca22cff76021")
+	)
+	(wire
+		(pts
+			(xy 138.43 53.34) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8aba685-13eb-4008-a853-9fed77824444")
+	)
+	(wire
+		(pts
+			(xy 124.46 78.74) (xy 124.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 59.69) (xy 265.43 59.69)
+			(xy 129.54 63.5) (xy 130.81 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 69.85) (xy 259.08 69.85)
+			(xy 116.84 73.66) (xy 124.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +2113,7 @@
 	)
 	(symbol
 		(lib_id "6502:6502")
-		(at 245.11 120.65 0)
+		(at 110.49 124.46 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1689,7 +2122,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ae6c095-907e-43f2-b940-fafe786d3ca4")
 		(property "Reference" "IC1"
-			(at 248.92 124.4599 0)
+			(at 114.3 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +2131,7 @@
 			)
 		)
 		(property "Value" "6502"
-			(at 248.92 126.9999 0)
+			(at 114.3 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +2140,7 @@
 			)
 		)
 		(property "Footprint" "6502:DIP40"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +2150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +2159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +2168,7 @@
 			)
 		)
 		(property "MF" "Mostek"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +2178,7 @@
 			)
 		)
 		(property "Description_1" "Thermostat 95°C Active High Push-Pull SOT-23-5"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +2188,7 @@
 			)
 		)
 		(property "Package" "SOT-753 Mostek"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +2198,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +2208,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=snap"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +2218,7 @@
 			)
 		)
 		(property "MP" "6502"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +2228,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +2238,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=eda"
-			(at 245.11 120.65 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,8 +2377,120 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx:4028")
+		(at 157.48 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32df05fe-60f0-47c9-8511-12559d3bcbef")
+		(property "Reference" "U1"
+			(at 159.6233 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4028"
+			(at 159.6233 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4028bms.pdf"
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoder 4 to 10 lines"
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7fce8b41-86d9-40b1-8d15-a24f9db5b8c2")
+		)
+		(pin "10"
+			(uuid "772ef92f-69c3-4e2b-aea2-3c333481c3f9")
+		)
+		(pin "11"
+			(uuid "914ae123-e1b5-45ca-bfe7-5318890002d9")
+		)
+		(pin "12"
+			(uuid "c0bc889d-34cb-4660-9d4a-4c957e8c2e28")
+		)
+		(pin "16"
+			(uuid "18291b25-102d-4ab6-8b76-236b1d15e19f")
+		)
+		(pin "8"
+			(uuid "25fdabc0-cda2-4d29-a677-dfbb384b6877")
+		)
+		(pin "3"
+			(uuid "83556dae-7559-4b66-bc8c-21bc59604ae2")
+		)
+		(pin "14"
+			(uuid "401d5eae-a210-4bc6-a955-28fce3fa310d")
+		)
+		(pin "2"
+			(uuid "4d831f0a-645c-4d9e-9f04-fd0f98252087")
+		)
+		(pin "15"
+			(uuid "d46a9791-2e7d-4388-a99b-6788ce3475c1")
+		)
+		(pin "1"
+			(uuid "49fb2b17-84c0-4da2-ad5b-aeb2df899da5")
+		)
+		(pin "6"
+			(uuid "c46fc237-6bee-4405-b433-41c2d365be6d")
+		)
+		(pin "7"
+			(uuid "f710729e-e2b0-4414-9a1b-8a0b2f12ec41")
+		)
+		(pin "4"
+			(uuid "088f58b5-cf16-494a-9428-8959a07c6f23")
+		)
+		(pin "9"
+			(uuid "386df8c2-7712-4cf0-a409-97a55b47299d")
+		)
+		(pin "5"
+			(uuid "6b7aefc4-a0e3-406a-8af6-4b8d05c9ba29")
+		)
+		(instances
+			(project ""
+				(path "/4c4afc37-5253-4b0b-ab5d-bdd14533a2dd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "6502:6502")
-		(at 227.33 120.65 0)
+		(at 92.71 124.46 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1954,7 +2499,7 @@
 		(fields_autoplaced yes)
 		(uuid "58f04379-a136-45e8-8c17-328155bd48af")
 		(property "Reference" "IC1"
-			(at 231.14 124.4599 0)
+			(at 96.52 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +2508,7 @@
 			)
 		)
 		(property "Value" "6502"
-			(at 231.14 126.9999 0)
+			(at 96.52 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +2517,7 @@
 			)
 		)
 		(property "Footprint" "6502:DIP40"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +2527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +2536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +2545,7 @@
 			)
 		)
 		(property "MF" "Mostek"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +2555,7 @@
 			)
 		)
 		(property "Description_1" "Thermostat 95°C Active High Push-Pull SOT-23-5"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2565,7 @@
 			)
 		)
 		(property "Package" "SOT-753 Mostek"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2575,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2585,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=snap"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2595,7 @@
 			)
 		)
 		(property "MP" "6502"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2605,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +2615,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=eda"
-			(at 227.33 120.65 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +2755,7 @@
 	)
 	(symbol
 		(lib_id "6502:6502")
-		(at 236.22 90.17 0)
+		(at 101.6 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2219,7 +2764,7 @@
 		(fields_autoplaced yes)
 		(uuid "717422db-b3a5-4845-b524-82faf1903e4c")
 		(property "Reference" "IC1"
-			(at 236.22 52.07 0)
+			(at 101.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2772,7 @@
 			)
 		)
 		(property "Value" "6502"
-			(at 236.22 54.61 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2780,7 @@
 			)
 		)
 		(property "Footprint" "6502:DIP40"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2808,7 @@
 			)
 		)
 		(property "MF" "Mostek"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2818,7 @@
 			)
 		)
 		(property "Description_1" "Thermostat 95°C Active High Push-Pull SOT-23-5"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2828,7 @@
 			)
 		)
 		(property "Package" "SOT-753 Mostek"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2838,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2848,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=snap"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2858,7 @@
 			)
 		)
 		(property "MP" "6502"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2868,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2878,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=eda"
-			(at 236.22 90.17 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +3018,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 137.16 0)
+		(at 41.91 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2482,7 +3027,7 @@
 		(fields_autoplaced yes)
 		(uuid "72a57ef8-3a2d-4c5f-9d7d-4b49c9c9cbff")
 		(property "Reference" "#PWR02"
-			(at 176.53 143.51 0)
+			(at 41.91 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +3036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 142.24 0)
+			(at 41.91 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +3044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 137.16 0)
+			(at 41.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +3053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 137.16 0)
+			(at 41.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +3062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 137.16 0)
+			(at 41.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +3084,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 269.24 59.69 270)
+		(at 134.62 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2548,7 +3093,7 @@
 		(fields_autoplaced yes)
 		(uuid "841c2470-d3f8-4e7f-b978-6f1e325df350")
 		(property "Reference" "R1"
-			(at 269.24 53.34 90)
+			(at 134.62 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +3101,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 269.24 55.88 90)
+			(at 134.62 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +3109,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 269.24 57.912 90)
+			(at 134.62 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +3118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 59.69 0)
+			(at 134.62 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +3127,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 269.24 59.69 0)
+			(at 134.62 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +3152,7 @@
 	)
 	(symbol
 		(lib_id "6502:6502")
-		(at 242.57 59.69 0)
+		(at 107.95 63.5 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2616,7 +3161,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd5ea010-6c5a-42c1-9c0e-75eff64ef615")
 		(property "Reference" "IC1"
-			(at 246.38 52.6844 0)
+			(at 111.76 56.4944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +3170,7 @@
 			)
 		)
 		(property "Value" "6502"
-			(at 246.38 55.2244 0)
+			(at 111.76 59.0344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +3179,7 @@
 			)
 		)
 		(property "Footprint" "6502:DIP40"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +3198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +3207,7 @@
 			)
 		)
 		(property "MF" "Mostek"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +3217,7 @@
 			)
 		)
 		(property "Description_1" "Thermostat 95°C Active High Push-Pull SOT-23-5"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +3227,7 @@
 			)
 		)
 		(property "Package" "SOT-753 Mostek"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +3237,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +3247,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=snap"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +3257,7 @@
 			)
 		)
 		(property "MP" "6502"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +3267,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +3277,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/6502/Mostek/view-part/?ref=eda"
-			(at 242.57 59.69 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +3417,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 161.29 41.91 0)
+		(at 26.67 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2881,7 +3426,7 @@
 		(fields_autoplaced yes)
 		(uuid "beb66092-3322-4457-8efb-2a262dbc4757")
 		(property "Reference" "#PWR01"
-			(at 161.29 45.72 0)
+			(at 26.67 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +3435,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 161.29 36.83 0)
+			(at 26.67 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +3443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 41.91 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 41.91 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +3461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 161.29 41.91 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +3483,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 264.16 64.77 270)
+		(at 129.54 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2947,7 +3492,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0a9ea1b-4e3e-453a-aa59-98a88b4765cf")
 		(property "Reference" "SW1"
-			(at 267.97 63.4999 90)
+			(at 133.35 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3501,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 267.97 66.0399 90)
+			(at 133.35 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3510,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
-			(at 269.24 64.77 0)
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3519,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 269.24 64.77 0)
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +3528,7 @@
 			)
 		)
 		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 264.16 64.77 0)
+			(at 129.54 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
